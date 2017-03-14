@@ -69,7 +69,6 @@ h3{
   font-size: 1rem;
   padding: 5px 0;
 }
-
 /**
 Navbar-header
 **/
@@ -179,4 +178,34 @@ box-immagine-intera
 }
 .box-bordo{
   border-bottom: 1px solid gray;
+  }
 /********************************/
+/**
+Footer
+**/
+table{
+  border-top: 1px solid gray;
+}
+th{
+  padding: 20px 30px 20px 30px;
+}
+td{
+  padding-bottom: 20px;
+}
+th,td{
+  border-right: 1px solid gray;
+}
+th:last-child,
+td:last-child{
+  border-right:none;
+}
+footer ul{
+  list-style: none;
+  padding-left: 0;
+}
+footer ul a{
+  color:#333;
+}
+footer ul a:hover{
+  color:#333;
+}
