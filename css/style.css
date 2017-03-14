@@ -37,7 +37,12 @@ TYPO
 .bg-purple{
   background-color: #646873;
 }
-
+.bg-light-purple{
+  background-color: #b5b6bb;
+}
+.bg-light-blue{
+  background-color: #9cb5c6;
+}
 .shop{
   text-shadow: -2px 0  white, 0 2px  white, 2px 0  white, 0 -2px  white;
   color: #7c9180;
@@ -70,7 +75,7 @@ HEADER
 **/
 .navbar-header{
   height: 100%;
-  position: fixed;
+
   display: flex;
   top: 0;
   bottom: 0;
@@ -86,6 +91,9 @@ HEADER
   list-style-type: none;
   margin: 40px 0 0;
   font-size: 2rem;
+}
+.navbar-header li:first-child{
+  margin-top: 80px;
 }
 .navbar-header ul{
   padding-left: 0;
