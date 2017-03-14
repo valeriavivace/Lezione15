@@ -43,6 +43,9 @@ Typo
 .bg-light-blue{
   background-color: #9cb5c6;
 }
+.bg-brown{
+  background-color: #2d2d2d;
+}
 .shop{
   text-shadow: -2px 0  white, 0 2px  white, 2px 0  white, 0 -2px  white;
   color: #7c9180;
@@ -184,28 +187,29 @@ box-immagine-intera
 Footer
 **/
 table{
-  border-top: 1px solid gray;
-}
-th{
-  padding: 20px 30px 20px 30px;
-}
-td{
-  padding-bottom: 20px;
-}
-th,td{
-  border-right: 1px solid gray;
-}
-th:last-child,
-td:last-child{
-  border-right:none;
-}
-footer ul{
-  list-style: none;
-  padding-left: 0;
-}
-footer ul a{
-  color:#333;
-}
-footer ul a:hover{
-  color:#333;
-}
+    border-top: 1px solid gray;
+  }
+  th{
+    padding: 20px 30px 20px 30px;
+  }
+  td{
+    padding-bottom: 20px;
+  }
+  th,td{
+    border-right: 1px solid gray;
+  }
+  th:last-child,
+  td:last-child{
+    border-right:none;
+  }
+  footer ul{
+    list-style: none;
+    padding-left: 0;
+  }
+  footer ul a{
+    color:#333;
+  }
+  footer ul a:hover{
+    color:#333;
+  }
+  
