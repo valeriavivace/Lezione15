@@ -5,7 +5,7 @@ html{
 }
 
 /**
-TYPO
+Typo
 **/
 .text-white{
   color: white;
@@ -71,7 +71,7 @@ h3{
 }
 
 /**
-HEADER
+Navbar-header
 **/
 .navbar-header{
   height: 100%;
@@ -105,8 +105,9 @@ HEADER
   color: white;
   transition: ease-in-out 0.2s;
 }
+/**************************/
 /**
-MAIN
+Main
 **/
 .box-due-immagini{
   height: 500px;
@@ -125,7 +126,6 @@ MAIN
   flex-direction: column;
   align-items: center;
 }
-
 .box-prodotto{
   position: relative;
 }
@@ -146,11 +146,23 @@ MAIN
 .effetto-hover:hover{
   opacity: 1;
 }
-.box-primo-immagine-intera{
-  height: 500px;
-  background-image: url(https://paper-collective.com/wp-content/uploads/2015/07/web_banner1.jpg);
+/**
+box-immagine-intera
+**/
+.box-immagine-intera{
   background-size: cover;
-}
+  height: 500px;
+  }
+  .primo{
+    background-image: url(https://paper-collective.com/wp-content/uploads/2015/07/web_banner1.jpg);
+  }
+  .secondo{
+    background-image: url(https://paper-collective.com/wp-content/uploads/2015/07/Sale_03.jpg);
+  }
+  .terzo{
+    background-image: url(https://paper-collective.com/wp-content/uploads/2015/07/TLN_Natural_Tan-web-e1462806039949.jpg);
+  }
+/****/
 .box-piccolo-due-immagini{
   height: 350px;
 }
@@ -165,3 +177,6 @@ MAIN
 .box-due-testi{
   padding: 40px;
 }
+.box-bordo{
+  border-bottom: 1px solid gray;
+/********************************/
