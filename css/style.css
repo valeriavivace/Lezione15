@@ -83,7 +83,7 @@ Navbar-header
 }
 .logo{
   width:63px;
-  margin: 40px 0;
+  margin: 80px 0;
 }
 .navbar-header li{
   list-style-type: none;
@@ -108,7 +108,7 @@ Navbar-header
 Main
 **/
 .box-due-immagini{
-  height: 500px;
+  height: 50vw;
 }
 .box-prodotto{
   height: 100%;
@@ -153,7 +153,8 @@ box-immagine-intera
 **/
 .box-immagine-intera{
   background-size: cover;
-  height: 500px;
+  background-position: center center;
+  height: 50vw;
   }
   .primo{
     background-image: url(https://paper-collective.com/wp-content/uploads/2015/07/web_banner1.jpg);
@@ -166,7 +167,7 @@ box-immagine-intera
   }
 /****/
 .box-piccolo-due-immagini{
-  height: 350px;
+  height: 30vw;
 }
 .box-due-testi a{
   color: black;
